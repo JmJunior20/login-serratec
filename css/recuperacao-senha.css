@@ -1,0 +1,69 @@
+body {
+    background-color: gainsboro;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-recuperacao {
+    max-width: 315px;
+    border: 1px solid #ddd;
+    background-color: var(--cor-secundaria);
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgb(50 50 50 / 82%);
+}
+
+.logo {
+    text-align: center;
+    font-size: 15px;
+    color: var(--cor-principal);
+}
+
+.grupo {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+}
+
+input:focus {
+    border: 1px solid var(--cor-principal);
+    box-shadow: 5px 5px 5px #ddd;
+}
+
+#btn-entrar {
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    border: 0;
+    cursor: pointer;
+}
+
+#btn-entrar:hover {
+    background-color: var(--cor-tercearia);
+}
+
+a {
+    color: var(--cor-principal);
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.grupo.footer {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,70 @@
+
+body {
+    background-color: gainsboro;
+
+}
+
+.box-login {
+
+    max-width: 280px;
+    border: 1px solid #ddd;
+    background-color: var(--cor-secundaria);
+    margin: auto;
+    margin-top: 70px;
+    padding: 25px;
+    padding-top: 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgb(50 50 50 / 82%);
+}
+
+.logo {
+    text-align: center;
+    color: var(--cor-principal);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.grupo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#btn-entrar,
+input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+input {
+    border: 2px solid #ddd;
+}
+
+input:focus {
+    border: 1px solid var(--cor-principal);
+    box-shadow: 5px 5px 5px #ddd;
+}
+
+#btn-entrar {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+}
+
+#btn-entrar:hover {
+    background-color: var(--cor-tercearia);
+}
+
+.grupo.final {
+    text-align: center;
+}
+
+.grupo > a {
+    color: var(--cor-principal);
+    font-size: 12px;
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-weight: 500;
+}
